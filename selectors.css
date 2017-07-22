@@ -1,0 +1,43 @@
+header {
+	border: 1px solid blue;
+	padding: 1%;
+}
+nav a:nth-child(n+2) {
+	padding-left: 3%;
+}
+
+.disabled {
+	color: gray;
+}
+a.disabled {
+	color: purple;
+}
+.active {
+	color: yellow;
+}
+
+.parent > div:first-of-type > div:first-of-type {
+	color: red;
+}
+.parent > div:first-of-type > div:last-of-type {
+	color: blue;
+}
+
+.parent > div:first-of-type > h4:first-of-type {
+	background-color: red;
+}
+.parent > div:first-of-type > h4:last-of-type {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px black solid;
+	border-radius: 5px;
+}
+.promo, .promo > span {
+	font-weight: bold;
+	color: gold;
+}
+input {
+	height: 25px;
+}
